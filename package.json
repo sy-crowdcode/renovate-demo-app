@@ -1,0 +1,17 @@
+{
+  "name": "renovate-demo-app",
+  "version": "1.0.0",
+  "description": "Demo-App für den Renovate Workshop – enthält absichtlich veraltete Dependencies",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "express": "4.17.1",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "jest": "27.5.1"
+  }
+}

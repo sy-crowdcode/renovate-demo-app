@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Java / Maven
+target/
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Renovate (wird von Teilnehmern selbst erstellt)
+renovate.json
