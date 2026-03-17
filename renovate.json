@@ -13,6 +13,9 @@
       "matchUpdateTypes": ["patch"]
     },
     {
+      "matchUpdateTypes": ["minor"]
+    },
+    {
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
