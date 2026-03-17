@@ -10,6 +10,9 @@
       "groupName": "dev dependencies"
     },
     {
+      "matchUpdateTypes": ["patch"]
+    },
+    {
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
