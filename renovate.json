@@ -7,7 +7,9 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
-      "groupName": "all patch dependencies"
+      "groupName": "all patch dependencies",
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "matchUpdateTypes": ["minor"],
