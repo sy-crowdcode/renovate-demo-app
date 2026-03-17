@@ -13,7 +13,9 @@
     },
     {
       "matchUpdateTypes": ["minor"],
-      "groupName": "all minor dependencies"
+      "groupName": "all minor dependencies",
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "matchDepTypes": ["devDependencies"],
