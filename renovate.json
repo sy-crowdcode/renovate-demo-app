@@ -3,5 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "prConcurrentLimit": 3
+  "prConcurrentLimit": 3,
+  "mergeConfidence:all-badges"
 }
