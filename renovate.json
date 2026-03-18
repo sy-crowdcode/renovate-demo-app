@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "mergeConfidence:all-badges"
+  ],
+  "prConcurrentLimit": 5,
+  "schedule": ["at any time"],
+  "timezone": "Europe/Berlin",
+  "minimumReleaseAge": "3 days",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "dev dependencies (patch)",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "matchPackageNames": ["axios"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["axios"],
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
+    },
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "non-major updates",
+      "automerge": true,
+      "automergeType": "pr"
+    }    
+  ]
+}
