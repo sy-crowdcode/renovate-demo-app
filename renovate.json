@@ -18,7 +18,8 @@
     {
       "matchPackageNames": ["lodash"],
       "matchUpdateTypes": ["patch"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "pr"
     }
   ]
 }
