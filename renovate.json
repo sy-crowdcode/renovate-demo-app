@@ -12,6 +12,10 @@
     },
     {
       "matchPackageNames": ["axios"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": false
     }
