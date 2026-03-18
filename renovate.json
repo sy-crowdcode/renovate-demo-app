@@ -5,10 +5,15 @@
     "mergeConfidence:all-badges"
   ],
   "prConcurrentLimit": 5,
+  "schedule": ["at any time"],
+  "timezone": "Europe/Berlin",
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "groupName": "dev dependencies"
+      "matchUpdateTypes": ["patch"],
+      "groupName": "dev dependencies (patch)",
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "matchPackageNames": ["axios"],
