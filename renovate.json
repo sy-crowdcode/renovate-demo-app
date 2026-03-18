@@ -13,13 +13,7 @@
     {
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
-      "enabled": true
-    },
-    {
-      "matchPackageNames": ["lodash"],
-      "matchUpdateTypes": ["patch"],
-      "automerge": true,
-      "automergeType": "pr"
+      "enabled": false
     }
   ]
 }
