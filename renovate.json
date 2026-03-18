@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "mergeConfidence:all-badges"
   ],
-  "prConcurrentLimit": 3,
-  "mergeConfidence:all-badges",
+  "prConcurrentLimit": 5,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
