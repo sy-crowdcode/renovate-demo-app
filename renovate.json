@@ -4,5 +4,11 @@
     "config:recommended"
   ],
   "prConcurrentLimit": 3,
-  "mergeConfidence:all-badges"
+  "mergeConfidence:all-badges",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies"
+    }
+  ]
 }
