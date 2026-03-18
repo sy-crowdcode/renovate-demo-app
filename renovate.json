@@ -18,6 +18,12 @@
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": false
-    }
+    },
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "non-major updates",
+      "automerge": true,
+      "automergeType": "pr"
+    }    
   ]
 }
